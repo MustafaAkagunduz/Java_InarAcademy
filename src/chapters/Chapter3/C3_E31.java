@@ -24,7 +24,7 @@ public class C3_E31 {
 							 System.out.println(userInput+ " yuan is $"+ result);
 	}else if(preference!=0 || preference!=1) {System.out.println("Incorrect input");}
 	
-	
+	scn.close();
 	
 	}
 

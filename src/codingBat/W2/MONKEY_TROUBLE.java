@@ -1,4 +1,4 @@
-package codingBat;
+package codingBat.W2;
 
 public class MONKEY_TROUBLE {
 

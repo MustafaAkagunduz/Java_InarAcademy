@@ -1,4 +1,4 @@
-package codingBat;
+package codingBat.W2;
 import java.util.Scanner;
 public class CLOSE_10 {
 

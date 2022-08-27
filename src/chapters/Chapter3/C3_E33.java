@@ -22,6 +22,7 @@ public class C3_E33 {
 	if(comparator1>comparator2) {System.out.println("Package 1 has a better price.");}
 	else System.out.println("Package 2 has a better price.");
 	
+	scn.close();
 
 	}
 

@@ -7,7 +7,7 @@ public class C3_E30 {
 
         System.out.println("Enter the time zone offset to GMT:(+3 for Istanbul) ");
         int offset = scn.nextInt();
-        boolean pm = false;
+        
 
         long milliSeconds = System.currentTimeMillis();
         long millisToSeconds = milliSeconds / 1000;
@@ -24,7 +24,7 @@ public class C3_E30 {
         
         System.out.println("Your current time is " + hours + ":" + minute + ":" + seconds);
 	
-
+        scn.close();
 	}
 
 }
