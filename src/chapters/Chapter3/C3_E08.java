@@ -27,6 +27,9 @@ public class C3_E08 {
 		if(v2>v1) {System.out.println("Numbers sorted: "+ v3 + " "+ v2+ " " + v1);}
 		else System.out.println("Numbers sorted: "+ v3 + " "+ v1+ " " + v2);
 	}
+	
+	
+	
 	scn.close();
 	}
 
