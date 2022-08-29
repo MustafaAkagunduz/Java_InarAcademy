@@ -1,26 +1,29 @@
 package chapters.Chapter3;
 
-import java.util.Scanner;
+import java.util.Random;
 
 public class C3_E16 {
 
 	public static void main(String[] args) {
-	
-	Scanner scn= new Scanner(System.in);
-	boolean isXin=false, isYin=false;
-	System.out.println("There is a rectangle, its center is 0,0 and it's width is 100 and it's height is:200");
-	
-	System.out.println("Please enter a point (first x, then y), we'll see whether it is in/out of our rectangle..");
-	int xInput=scn.nextInt();
-	int yInput=scn.nextInt();
-	
-	if( xInput<=50   && xInput>=-50  ) {   isXin=true;}
-	if( yInput<=100  && yInput>=-100 ) {   isYin=true;}           
-	
-	if( isXin&&isYin == true) { System.out.println("Your point is in/on the rectangle.. "); 
-	}else System.out.println("Your point is outside of the rectangle.");
-	
-	scn.close();
-	
-	}
+
+        Random random = new Random();
+
+        //Random boolean value indicates making the number negative.
+        boolean negOrPosX = random.nextBoolean();
+        boolean negOrPosY = random.nextBoolean();
+
+        int x = (int) ((Math.random() * 100));
+        int y = (int) ((Math.random() * 200));
+
+
+        if (negOrPosX) {
+            x = x * -1;
+        }
+
+        if (negOrPosY) {
+            y = y * -1;
+        }
+
+        System.out.println("(" + x + "," + y + ")");
+    }
 }
