@@ -6,10 +6,7 @@ public class C4_E08 {
 
 	public static void main(String[] args) {
 
-		/*
-		 * (Find the character of an ASCII code) Write a program that receives an ASCII
-		 * code (an integer between 0 and 127) and displays its character.
-		 */
+		
 
 		Scanner scn = new Scanner(System.in);
 

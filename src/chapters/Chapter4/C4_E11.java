@@ -3,8 +3,7 @@ import java.util.Scanner;
 public class C4_E11 {
 
 	public static void main(String[] args) {
-	/*(Decimal to hex) Write a program that prompts the user to enter an integer between
-0 and 15 and displays its corresponding hex number.*/
+	
 	Scanner scn= new Scanner(System.in);
 	System.out.println("Enter a decimal value (0 to 15): ");
 	int decimal=scn.nextInt();

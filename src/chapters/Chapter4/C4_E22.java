@@ -4,9 +4,7 @@ public class C4_E22 {
 
 	public static void main(String[] args) {
 	
-		/*(Check substring) Write a program that prompts the user to enter two strings and
-		reports whether the second string is a substring of the first string.*/
-
+		
 		Scanner scn=new Scanner(System.in);
 		System.out.println("Please enter first String: ");
 		String s1=scn.nextLine();

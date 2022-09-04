@@ -1,0 +1,22 @@
+package chapters.Chapter1;
+
+public class C1_E13 {
+	public static void main(String[] args) {
+
+		double a = 3.4;
+		double b = 50.2;
+		double e = 44.5;
+		double c = 2.1;
+		double d = 0.55;
+		double f = 5.9;
+
+		double x = (e * d - b * f) / (a * d - b * c);
+		x = (int) (x * 100) / 100.0;
+		double y = (a * f - e * c) / (a * d - b * c);
+		y = (int) (y * 100) / 100.0;
+
+		System.out.println("x is: " + x);
+		System.out.println("y is: " + y);
+
+	}
+}
