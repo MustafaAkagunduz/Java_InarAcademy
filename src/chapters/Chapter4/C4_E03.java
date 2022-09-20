@@ -14,7 +14,7 @@ public class C4_E03 {
 		double latORLANDO = 28.53;
 		double longORLANDO = -81.37;
 		double x2ORLANDO = Math.toRadians(latORLANDO);
-		double y2ORLANDO = Math.toRadians(latORLANDO);
+		double y2ORLANDO = Math.toRadians(longORLANDO);
 
 		double latSAVANNAH = 32.08;
 		double longSAVANNAH = -81.09;
